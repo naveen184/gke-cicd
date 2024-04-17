@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: us-central1-docker.pkg.dev/my-first-project-17342/gke-repo/quickstart-image
+          image: us-central1-docker.pkg.dev/my-first-project-17342/gcr.io/quickstart-image
           ports:
             - containerPort: 8080
 
